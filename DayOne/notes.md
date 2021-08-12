@@ -1,4 +1,4 @@
-# Notes: Day one
+## Notes: Day one
 
 # Input
 ```
