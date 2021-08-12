@@ -1,4 +1,4 @@
-## Notes: Day one
+## Day one
 
 # Input function
 When you **run** this piece of code:
