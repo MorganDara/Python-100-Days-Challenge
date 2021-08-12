@@ -12,5 +12,5 @@ Hello username
 ```
 The **input** function gets executed, then return the entered value to the **print** function before displaying the final string
 
-The Thonny Python IDE can be a great tool to visualize in which order the functions are getting called in this line of code
-link: [https://thonny.org/](https://thonny.org/)
+The Thonny Python IDE can be a great tool to visualize in which order the functions are getting called in this line of code.
+Link: [https://thonny.org/](https://thonny.org/)
