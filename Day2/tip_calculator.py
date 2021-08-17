@@ -1,3 +1,11 @@
+'''
+    Author: DARA Morgan
+    Date: 17/08/2021
+    Version: 1.0.0
+    Description: Simple program that calculate
+     the calculate the amount each person has to pay
+     for a bill including the tip
+'''
 def calculate_bill_per_person(bill, people_number, tip):
     return round((bill * (1 + tip/100)) / people_number, 2)
 
