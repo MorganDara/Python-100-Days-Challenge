@@ -105,7 +105,7 @@ def game():
         else:
             print(current_choice["text"])
 
-        if(current_choice["Game state"] == game_state["lost"] or current_choice["Game state"] == game_state["won"]):
+        if(current_choice["Game state"] != game_state["playing"]):
             message_key  = [key for key in game_state if game_state[key] == current_choice["Game state"]][0]
             print(default_messages[message_key])
             loop = False
