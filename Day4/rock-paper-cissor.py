@@ -55,7 +55,7 @@ def game():
     user_input = input(f"What do you choose? Type {ROCK} for Rock, {PAPER} for Paper and {SCISSOR} for Scissors.\n")
 
     while user_input not in available_choices:
-        user_input = input("Only type 0, 1 or 2\n")
+        user_input = input("Only type {ROCK}, {PAPER} or {SCISSOR}\n")
     
     computer_choice = str(randint(0,2))
 
