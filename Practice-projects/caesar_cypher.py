@@ -12,17 +12,27 @@ def encode(message, shift_number):
     message = list(message)
     result = []
 
-    for l in message:
-        ascii_val = ord(l)
+    for letter in message:
+        ascii_val = ord(letter)
         if ascii_val >= A_ASCII and ascii_val <= Z_ASCII:
-            result += chr((ascii_val + shift_number - A_ASCII) % 26 + A_ASCII)
+            result += chr(((ascii_val - A_ASCII) + shift_number) % 26 + A_ASCII)
         else:
-            result += l
+            result += letter
 
     return ''.join(result)
 
 def decode(message, shift_number):
-    pass
+    message = list(message)
+    result = []
+
+    for letter in message:
+        ascii_val = ord(letter)
+        if ascii_val >= A_ASCII and ascii_val <= Z_ASCII:
+            result += chr(((ascii_val - A_ASCII) - shift_number) % 26 + A_ASCII)
+        else:
+            result += letter
+
+    return ''.join(result)
 
 def main():
     mainloop = True
