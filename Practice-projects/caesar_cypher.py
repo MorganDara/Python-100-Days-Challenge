@@ -49,7 +49,7 @@ def main():
             result = decode(message, shift_number)
             print(f"Here is the decoded message: {result}")
 
-        choice = input("Type 'yes' to coninue or 'no' to stop the program\n").lower()
+        choice = input("Type 'yes' to continue or 'no' to stop the program\n").lower()
         if choice == "yes":
             print("\n")
         else:
