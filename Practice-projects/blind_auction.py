@@ -1,3 +1,9 @@
+'''
+    Author: DARA Morgan
+    Date: 16/10/2021
+    Version: 1.0.0
+    Description: Simple program that mimics a silent auction
+'''
 from os import system
 HAMMER_IMG = """
 """
