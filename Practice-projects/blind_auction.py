@@ -5,8 +5,20 @@
     Description: Simple program that mimics a silent auction
 '''
 from os import system
-HAMMER_IMG = """
-"""
+HAMMER_IMG = '''
+                         ___________
+                         \         /
+                          )_______(
+                          |"""""""|_.-._,.---------.,_.-._
+                          |       | | |               | | ''-.
+                          |       |_| |_             _| |_..-'
+                          |_______| '-' `'---------'` '-'
+                          )"""""""(
+                         /_________\\
+                       .-------------.
+                      /_______________\\
+'''
+
 
 auction_data = dict()
 
