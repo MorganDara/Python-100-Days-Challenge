@@ -24,14 +24,14 @@ auction_data = dict()
 
 def main():
     print(HAMMER_IMG, end="\n\n")
-    loop = True
-    while loop:
+    auction_not_finished = True
+    while auction_not_finished:
         name = input("What is your name ?: ")
         bid = int(input("What is your bid?: $"))
         auction_data[name] = bid
 
         ask = input("Are they other bidders? Type 'yes' or 'no'.\n")
-        loop = (ask == "yes")
+        auction_not_finished = (ask == "yes")
         system("cls")
 
     winner, max_bid = "", 0
